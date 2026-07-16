@@ -18,5 +18,8 @@ B-->C
 C-->|Sim| D
 C-->|Não| E
 
+D --> F
+E --> F
+
 F-->G
 G-->H
