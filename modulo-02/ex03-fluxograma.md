@@ -15,8 +15,8 @@ H([Fim])
 
 A-->B
 B-->C
-C-->|Sim| F
-C-->|Não| F
+C-->|Sim| D
+C-->|Não| E
 
 F-->G
 G-->H
