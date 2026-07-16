@@ -4,7 +4,16 @@
 
 ```mermaid
 flowchart TD
-A([Início]) --> B[Leia valor da compra]
-B --> C{Valor 100?}
-C --> |Sim| --> D['Desconto = valor da compra * 0.10']
+A([Início])
+B[/Ler o valor da compra/]
+C{Valor >= 100?}
+D[Desconto = valor*0.10]
+E[Sem desconto]
+F([Fim])
 
+A-->B
+B-->C
+C-->|Sim| D
+C-->|Não| E
+D-->F
+E-->F
