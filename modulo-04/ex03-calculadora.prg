@@ -45,7 +45,7 @@ FUNCTION Calculadora
                 QOut("Resultado: " + Str(nResultado, 10, 2))
             ENDIF
 
-        OTHERWISE
+            OTHERWISE
             QOut("Operação inválida!")
 
     ENDCASE

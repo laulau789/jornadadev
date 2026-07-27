@@ -31,7 +31,7 @@ FUNCTION NomeMes
             cNomeMes := "Novembro"
         CASE nMes == 12
             cNomeMes := "Dezembro"
-        OTHERWISE
+            OTHERWISE
             cNomeMes := "Mês inválido"
     ENDCASE
 
